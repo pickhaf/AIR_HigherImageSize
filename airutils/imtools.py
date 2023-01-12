@@ -28,6 +28,7 @@ import matplotlib.pyplot as plt
 from scipy import signal
 from itertools import compress
 from PIL import Image, ImageDraw, ImageFont, ImageColor
+Image.MAX_IMAGE_PIXELS = None
 
 
 def equalize_hist(img):
